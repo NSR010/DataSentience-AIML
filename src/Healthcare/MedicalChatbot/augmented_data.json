@@ -1,0 +1,81 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Good afternoon",
+        "Good morning",
+        "Hello",
+        "Hi",
+        "Hey",
+        "What's up"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there. What symptoms are you experiencing?"
+      ]
+    },
+    {
+      "tag": "report_symptom",
+      "patterns": [
+        "My vision is blurry and ane feel faint",
+        "It harm when I swallow",
+        "There is a dull ache in my right shoulder",
+        "My vision is blurry and I feel faint",
+        "I have antiophthalmic factor pounding headache",
+        "I feel very wear all the time",
+        "I've got a sharp pain in my lower back",
+        "iodin can't stop sneezing and my nose is running",
+        "I've had a fever for trinity days straight",
+        "I can't stop sneezing and my nose is running",
+        "My stomach has been hurting since yesterday",
+        "My left knee is swollen",
+        "I feel very tired all the time",
+        "I've got a sharp pain in my lower second",
+        "My pharynx is sore and I have a cough",
+        "I've had a fever for three days straight",
+        "Feeling dizzy and nauseous for the last two hours",
+        "It hurts when I swallow",
+        "My throat is sore and I have a cough",
+        "I have a pounding headache",
+        "My left knee joint is swollen",
+        "Feeling lightheaded and nauseous for the last two hours"
+      ],
+      "responses": [
+        "I understand. I'm noting that down. Can you tell me more?",
+        "Okay, thank you for sharing."
+      ]
+    },
+    {
+      "tag": "ask_for_advice",
+      "patterns": [
+        "What's good for an upset stomach?",
+        "Any recommendations for a minor burn?",
+        "How can I treat a sore throat at home?",
+        "How tooshie I treat a sore throat at home?",
+        "any recommendations for a minor burn?",
+        "What do you suggest for a muscle sprain?",
+        "What should I do for a fever?",
+        "What's good for an turnover stomach?"
+      ],
+      "responses": [
+        "I can provide some general self-care advice, but remember to consult a doctor for a proper diagnosis."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "That's all for now",
+        "see to it you later",
+        "See you later",
+        "Bye",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "Take care! Remember to consult a doctor if you feel unwell.",
+        "Goodbye! Stay healthy."
+      ]
+    }
+  ]
+}
