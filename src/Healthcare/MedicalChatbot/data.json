@@ -1,0 +1,139 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "What's up",
+        "How are you?",
+        "Hi there",
+        "Hey bot",
+        "Hello assistant"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there. What symptoms are you experiencing?",
+        "Hey! Tell me what’s bothering you today."
+      ]
+    },
+    {
+      "tag": "report_symptom",
+      "patterns": [
+        "I have a pounding headache",
+        "My stomach has been hurting since yesterday",
+        "I've got a sharp pain in my lower back",
+        "Feeling dizzy and nauseous for the last two hours",
+        "My throat is sore and I have a cough",
+        "There is a dull ache in my right shoulder",
+        "I can't stop sneezing and my nose is running",
+        "I've had a fever for three days straight",
+        "My vision is blurry and I feel faint",
+        "It hurts when I swallow",
+        "My left knee is swollen",
+        "I feel very tired all the time",
+        "I have chest pain",
+        "I feel short of breath",
+        "I’m experiencing severe abdominal cramps",
+        "I have chills and body ache",
+        "My ear hurts",
+        "My skin is itchy and red",
+        "I feel pressure in my chest",
+        "My ankle is twisted and swollen"
+      ],
+      "responses": [
+        "I understand. I'm noting that down. Can you tell me more about how long you’ve felt this?",
+        "Okay, thank you for sharing. Could you describe how severe it feels?",
+        "Got it. Which part of your body is affected?"
+      ]
+    },
+    {
+      "tag": "symptom_duration",
+      "patterns": [
+        "It's been going on for two days",
+        "I have had this for a week",
+        "The pain started this morning",
+        "I've felt this way for several hours",
+        "I’ve been sick since last night",
+        "This has been happening for months",
+        "It just started a few minutes ago"
+      ],
+      "responses": [
+        "Thanks for clarifying the duration.",
+        "Noted. The duration will help in assessing severity."
+      ]
+    },
+    {
+      "tag": "symptom_severity",
+      "patterns": [
+        "It's mild",
+        "The pain is moderate",
+        "It's very severe",
+        "I can't tolerate it anymore",
+        "It's just a little uncomfortable",
+        "It's extremely painful",
+        "It's worsening over time"
+      ],
+      "responses": [
+        "Okay, I understand the severity.",
+        "Thanks, severity helps me decide the right advice."
+      ]
+    },
+    {
+      "tag": "ask_for_advice",
+      "patterns": [
+        "What should I do for a fever?",
+        "How can I treat a sore throat at home?",
+        "What's good for an upset stomach?",
+        "Any recommendations for a minor burn?",
+        "What do you suggest for a muscle sprain?",
+        "How can I stop a cough?",
+        "What should I do if I can't sleep?",
+        "What can I take for a cold?",
+        "How do I reduce swelling?",
+        "Any home remedy for nausea?"
+      ],
+      "responses": [
+        "I can provide some general self-care advice, but remember to consult a doctor for a proper diagnosis.",
+        "Sure, I’ll suggest basic remedies. If your symptoms persist or worsen, please seek medical help."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "I have severe chest pain",
+        "I can't breathe properly",
+        "I feel like I'm going to faint",
+        "I'm bleeding heavily",
+        "I think I'm having a heart attack",
+        "My vision suddenly went dark",
+        "I can’t move my arm",
+        "I feel extremely weak all of a sudden"
+      ],
+      "responses": [
+        "This sounds serious. Please seek **emergency care immediately** or call your local emergency number.",
+        "Your symptoms require urgent medical attention. Please do not wait."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Thanks for your help",
+        "That's all for now",
+        "Take care",
+        "See you"
+      ],
+      "responses": [
+        "Take care! Remember to consult a doctor if you feel unwell.",
+        "Goodbye! Stay healthy.",
+        "Bye! Wishing you good health."
+      ]
+    }
+  ]
+}
