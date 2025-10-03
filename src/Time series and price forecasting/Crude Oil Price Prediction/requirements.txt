@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+statsmodels
+joblib
+streamlit
+plotly
+kaleido  # For saving plotly figures as images
+tensorflow  # for LSTM if needed
