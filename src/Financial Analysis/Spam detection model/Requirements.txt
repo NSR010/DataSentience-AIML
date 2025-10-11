@@ -1,0 +1,20 @@
+# Core Libraries
+numpy>=1.24.0
+pandas>=2.0.0
+
+# NLP & Text Preprocessing
+nltk>=3.8.0
+scikit-learn>=1.2.0
+
+# Deep Learning
+tensorflow>=2.14.0
+keras>=2.14.0
+
+# Deployment
+streamlit>=1.26.0
+
+# Serialization
+pickle-mixin>=1.0.2
+
+# Optional utilities
+tqdm>=4.66.0
