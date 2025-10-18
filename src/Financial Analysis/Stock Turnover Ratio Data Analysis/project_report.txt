@@ -1,0 +1,19 @@
+Project Title: Stock Turnover Ratio Analysis
+
+Objectives:
+1. Perform detailed Exploratory Data Analysis (EDA) on stock turnover ratios and related variables.
+2. Visualize trends and seasonality in turnover ratios over time.
+3. Compute rolling statistics (mean, volatility) to identify regime shifts.
+4. Identify periods of unusually high or low trading activity and provide business interpretations.
+5. Prepare reproducible scripts and visual outputs for presentation.
+
+Learning Outcomes:
+- Real-world financial data preprocessing (date parsing, missing data handling).
+- Time series visualization and statistical analysis using Python (pandas, matplotlib).
+- Identification of trends, seasonality, and volatility patterns in turnover ratios.
+- Translating statistical findings into actionable financial insights and investment implications.
+
+Business Insights (examples):
+- Persistent increases in turnover ratio could indicate rising liquidity and investor interest; sudden spikes may signal news-driven trading or rebalancing.
+- Low turnover over prolonged periods can indicate illiquid markets and higher transaction costs for large trades.
+- Comparing rolling volatility and mean can highlight changing market regimes useful for portfolio allocation decisions.
