@@ -1,0 +1,95 @@
+{
+  "num_rows": 5172,
+  "num_features": 3000,
+  "feature_sample": [
+    "the",
+    "to",
+    "ect",
+    "and",
+    "for",
+    "of",
+    "a",
+    "you",
+    "hou",
+    "in",
+    "on",
+    "is",
+    "this",
+    "enron",
+    "i",
+    "be",
+    "that",
+    "will",
+    "have",
+    "with",
+    "your",
+    "at",
+    "we",
+    "s",
+    "are",
+    "it",
+    "by",
+    "com",
+    "as",
+    "from",
+    "gas",
+    "or",
+    "not",
+    "me",
+    "deal",
+    "if",
+    "meter",
+    "hpl",
+    "please",
+    "re",
+    "e",
+    "any",
+    "our",
+    "corp",
+    "can",
+    "d",
+    "all",
+    "has",
+    "was",
+    "know"
+  ],
+  "accuracy": 0.9594202898550724,
+  "roc_auc": 0.9825464852607709,
+  "confusion_matrix": [
+    [
+      699,
+      36
+    ],
+    [
+      6,
+      294
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9914893617021276,
+      "recall": 0.9510204081632653,
+      "f1-score": 0.9708333333333333,
+      "support": 735.0
+    },
+    "1": {
+      "precision": 0.8909090909090909,
+      "recall": 0.98,
+      "f1-score": 0.9333333333333333,
+      "support": 300.0
+    },
+    "accuracy": 0.9594202898550724,
+    "macro avg": {
+      "precision": 0.9411992263056093,
+      "recall": 0.9655102040816326,
+      "f1-score": 0.9520833333333334,
+      "support": 1035.0
+    },
+    "weighted avg": {
+      "precision": 0.9623356600229865,
+      "recall": 0.9594202898550724,
+      "f1-score": 0.9599637681159421,
+      "support": 1035.0
+    }
+  }
+}
