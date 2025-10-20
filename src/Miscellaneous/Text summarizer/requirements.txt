@@ -1,0 +1,11 @@
+Python 3.10+
+
+Streamlit
+
+Transformers (Hugging Face)
+
+Requests
+
+BeautifulSoup4
+
+Regex (re)
