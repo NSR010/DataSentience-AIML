@@ -1,6 +1,7 @@
 pandas
 numpy
 matplotlib
+xgboost
 scikit-learn
 statsmodels
 joblib
