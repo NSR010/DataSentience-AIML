@@ -17,9 +17,9 @@ if __name__ == "__main__":
         ('preprocessor', preprocessor),
 
         ('regressor', XGBRegressor(
-            n_estimators=300,
-            learning_rate=0.05,
-            max_depth=6,
+            n_estimators=450,
+            learning_rate=0.03,
+            max_depth=5,
             subsample=0.8,
             colsample_bytree=0.8,
             objective='reg:squarederror',
